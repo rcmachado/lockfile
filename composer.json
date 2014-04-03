@@ -1,0 +1,23 @@
+{
+    "name": "rcmachado/lockfile",
+    "description": "A library to handle a lockfile for process",
+    "license": "MIT",
+    "keywords": [ "lock", "process", "lockfile" ],
+    "authors": [
+        {
+            "name": "Rodrigo Machado",
+            "email": "rcmachado@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7",
+        "mikey179/vfsStream": "~1.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": { "Rcmachado": "src" }
+    }
+}
